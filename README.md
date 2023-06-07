@@ -61,7 +61,58 @@ Write a function/method to decompress the returned list value from **Question 1*
 ******
 ******
 <br/>
+
+Example 1:
 <br/>
+***Input***: chars = "a3b4a2c"
+<br/>
+***Output***: ['a', 'a', 'a', 'b', 'b', 'b', 'b', 'a', 'a', 'c']
+<br/>
+***Explanation***: The first letter "a" is repeated three (3) times, the second letter "b" is repeated four (4) times, the third letter "a" is repeated two (2) times and the last letter "c" is written just once.
+******
+<br/>
+
+Example 2:
+<br/>
+***Input***: chars = "e3k8"
+<br/>
+***Output***: ['e', 'e', 'e', 'k', 'k', 'k', 'k', 'k', 'k', 'k', 'k']
+******
+<br/>
+
+Example 3:
+<br/>
+***Input***: chars = "ab12ek3t6"
+<br/>
+***Output***: ['a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'e', 'k', 'k', 'k', 't', 't', 't', 't', 't', 't']
+******
+<br/>
+
+Example 4:
+<br/>
+***Input***: chars = "ab"
+<br/>
+***Output***: ['a', 'b']
+******
+<br/>
+
+Example 5:
+<br/>
+***Input***: chars = "c003"
+<br/>
+***Output***: ['c', 'c', 'c']
+******
+<br/>
+
+Constraints:
+<br/>
+1.  The first letter will always be a character.
+<br/>
+1.  The maximum number of any compressed character is 999
+<br/>
+
+******
+******
 
 
 ### ***You may decide to take a different path in designing and implementing your solution. Happy coding.***

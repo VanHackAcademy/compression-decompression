@@ -58,8 +58,6 @@ Source [Leetcode 443 - String Compression](https://leetcode.com/problems/string-
 
 ## ***<span style="color:gray">*Question 2*</span>***
 Write a function/method to decompress the returned list value from **Question 1** to give you back the original list input.
-******
-******
 <br/>
 
 Example 1:
